@@ -20,6 +20,7 @@ class Sms extends Component
             ? new smsru($this->api_id, $this->login, $this->password)
             : new smsru($this->api_id);
         parent::init();
+
     }
 
     /**
